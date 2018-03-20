@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: Spring Boot Curd Demo
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Pravin
+Implementation-Vendor-Id: io.springbootdemo
+Build-Jdk: 1.8.0_161
+Implementation-URL: http://projects.spring.io/spring-boot/springbootcu
+ rd/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
