@@ -6,6 +6,9 @@ import javax.persistence.ManyToOne;
 
 import io.springbootdemo.topic.Topic;
 
+@NamedStoredProcedureQuery(name="AllCourse", procedureName="ALLCOURSE", resultClasses=Course.class,parameters = {
+		@StoredProcedureParameter(mode = ParameterMode.REF_CURSOR, type = void.class),		
+	})	
 @Entity
 public class Course {	
 	
