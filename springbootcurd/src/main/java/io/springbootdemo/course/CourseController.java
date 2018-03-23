@@ -46,4 +46,9 @@ public class CourseController {
 	public void deleteCourse(@PathVariable String id) {
 		coursesService.deleteCourse(id);
 	}
+	@RequestMapping(method=RequestMethod.GET,value="/course/all")
+	public List<Course> getAllCourses() {
+		System.out.println("afasfaf");
+		return coursesService.getAllCourse1();
+	}
 }
