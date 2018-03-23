@@ -41,5 +41,19 @@ public class CourseService {
 	public void deleteCourse(String id) {	
 		courseRepository.delete(id);
 	}
+	public List<Course> getAllCourse1() {	
+		System.out.println("asfasf");		
+		
+		List<Course> courses = em.createNamedStoredProcedureQuery("AllCourse").getResultList();		
+//		System.out.println(courses);
+		return courses;
+//		System.out.println("The Students are:");		
+//		// Looping Through the Resultant list
+//		for ( courses : course)
+//		{
+//			System.out.println(course.toString());
+//		}
+
+	}
 	
 }
