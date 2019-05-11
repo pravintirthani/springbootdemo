@@ -1,0 +1,6 @@
+1. Auto jar generation of spring project which doesnot require tomcat separately install
+2. Dev and production version in application.properties by creating separate properties fields for both enviroment in create active profile in application.properties.
+3. Read only transaction if doesnot require the and other operation so it will be faster.
+4. Spring boot actuator for managing and monitor application on production.
+5. Thyme leaf curd operation with ajax request.
+
